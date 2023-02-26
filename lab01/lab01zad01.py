@@ -1,3 +1,4 @@
+# a
 def prime(n):
     if n <= 2:
         return False
@@ -9,7 +10,7 @@ def prime(n):
         else:
             i += 1
     return True
-
+# b
 def select_primes(x):
     prime_list = []
     for i in x:
