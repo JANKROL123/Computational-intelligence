@@ -63,7 +63,7 @@ for i in poznan:
 for i in szczecin:
     z = (i - mean_szczecin) / sd_szczecin
     szczecin_standaryzacja.append(z)
-print("Standaryzacja 1")
+print("Standaryzacja")
 print(f"Gdańsk -> średnia: {mean(gdansk_standaryzacja)}, odchylenie: {sd(gdansk_standaryzacja)}")
 print(f"Gdańsk -> średnia: {mean(gdansk_standaryzacja)}, odchylenie: {sd(gdansk_standaryzacja)}")
 print(f"Gdańsk -> średnia: {mean(gdansk_standaryzacja)}, odchylenie: {sd(gdansk_standaryzacja)}")
@@ -86,7 +86,7 @@ for i in poznan:
 for i in szczecin:
     z = (i - min_szczecin) / (max_szczecin - min_szczecin)
     szczecin_standaryzacja2.append(z)
-print("Standaryzacja 2")
+print("Normalizacja")
 print(f"Gdansk -> min: {min(gdansk_standaryzacja2)}, max: {max(gdansk_standaryzacja2)}")
 print(f"Poznan -> min: {min(poznan_standaryzacja2)}, max: {max(poznan_standaryzacja2)}")
 print(f"Szczecin -> min: {min(szczecin_standaryzacja2)}, max: {max(szczecin_standaryzacja2)}")
